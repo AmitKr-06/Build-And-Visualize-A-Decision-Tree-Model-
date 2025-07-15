@@ -31,4 +31,4 @@ How deep the tree is.
 Whether the tree is too complex or overfitting.
 
 OUTPUT 
-<img width="1880" height="800" alt="Image" src="https://github.com/user-attachments/assets/e5e603ff-21ca-4b72-b38e-1090ce11b267" />
+<img width="1843" height="874" alt="Image" src="https://github.com/user-attachments/assets/f8465a30-d20a-400e-8465-229d29bba134" />
