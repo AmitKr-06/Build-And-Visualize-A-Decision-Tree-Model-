@@ -6,7 +6,7 @@ DOMAIN: MACHINE LEARNING
 DURATION: 4 WEEKS
 MENTOR: NEELA SANTOSH
 
-EXPLANATION 
+EXPLANATION : 
 In this task, we are asked to build and visualize a Decision Tree using Scikit-learn, a popular machine learning library in Python. The goal is to use a dataset of our choice to predict or classify outcomes based on certain input features. This task helps us understand how machines make decisions by learning from data.
 Step 1: Choose a Dataset
 First, we need a dataset. This could be any dataset with labeled outcomes. A commonly used one for learning is the Iris dataset, which includes features of different types of flowers and their species.
