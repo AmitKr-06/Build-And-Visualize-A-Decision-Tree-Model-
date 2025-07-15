@@ -47,6 +47,16 @@ print("Classification Report:", classification_report(y_test, y_pred))
 
 ## Step 11: Confusion Matrix shows that the model performs well on classifying
 from sklearn.metrics import confusion_matrix
-sns.heatmap(confusion_matrix(y_test, y_pred), annot=True, fmt='d', cmap='Blues')
+cm = confusion_matrix(y_test, y_pred)
+
+## Step 12: Plot the heatmap with axis labels
+plt.figure(figsize=(6, 5))
+sns.heatmap(cm, annot=True, fmt='d', cmap='Blues',xticklabels=['Predicted: 0', 'Predicted: 1'],
+           yticklabels=['Actual: 0', 'Actual: 1'])
+
+# Add axis labels and title
+plt.xlabel("Predicted Labels")
+plt.ylabel("Actual Labels")
 plt.title("Confusion Matrix")
+plt.tight_layout()
 plt.show()
